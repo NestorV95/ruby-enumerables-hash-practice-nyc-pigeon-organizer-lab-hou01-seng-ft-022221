@@ -10,6 +10,7 @@ data.each_with_object({}) do |(key, value), final_array|
    names.each do |name|
      binding.pry
      if !final_array[name]
+       final_array={}
   end
   final_array
  end
